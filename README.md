@@ -70,3 +70,23 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
+
+
+
+------------
+## Yangi loyihaga ko'chirish
+
+# githubda yangi loyiha uchun repository yaratish
+# repository yaratganda readme bilan .gitignore qoshmaysiz
+# quruq repository yaratasiz
+
+
+## loyiga Git bashni ochib oling
+```bash
+git remote set-url origin <yangi-github-repo-link>
+```
+
+## Yangi loyihaga push qilish
+```bash
+git psuh origin main
+```
